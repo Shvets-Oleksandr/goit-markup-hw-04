@@ -1,2 +1,6 @@
-# goit-markup-hw-03
-WebStudio CSS hw-03 (positioning)
+# goit-markup-hw-04
+WebStudio CSS hw-04
+ — background images
+ — vector graphics
+ — pseudo-elements
+ — positioning

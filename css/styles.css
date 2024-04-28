@@ -80,6 +80,8 @@ body {
 /* ====== HEADER ====== */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .page-header-container {
   display: flex;
@@ -181,7 +183,7 @@ body {
     ),
     url("../images/background/background-people-office.jpg");
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center;
   background-size: cover;
 }
 
@@ -298,7 +300,7 @@ body {
 .team-social-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-social-list-link {
@@ -316,7 +318,7 @@ body {
 
 .team-social-list-link:hover,
 .team-social-list-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 /* ====== PORTFOLIO ====== */
@@ -393,7 +395,11 @@ body {
 
 .footer-container {
   display: flex;
-  column-gap: 120px;
+  align-items: baseline;
+}
+
+.foter-logo-text-container {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -431,7 +437,7 @@ body {
 
 .footer-social-list {
   display: flex;
-  column-gap: 16px;
+  gap: 16px;
 }
 
 .footer-social-list-link {
